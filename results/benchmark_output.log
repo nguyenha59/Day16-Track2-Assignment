@@ -1,0 +1,23 @@
+/usr/local/lib/python3.10/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+============================================================
+LightGBM CPU Benchmark - Credit Card Fraud Detection
+============================================================
+Loaded 284,807 rows x 30 features in 0.948s (fraud ratio 0.1727%)
+[100]	valid_0's auc: 0.972283
+[200]	valid_0's auc: 0.975279
+[300]	valid_0's auc: 0.976179
+Training done in 5.049s, best iteration = 243
+------------------------------------------------------------
+Thoi gian load data               | 0.948 s
+Thoi gian training                | 5.049 s
+Best iteration                    | 243
+AUC-ROC                           | 0.9756
+Accuracy                          | 0.9995
+F1-Score                          | 0.8556
+Precision                         | 0.9390
+Recall                            | 0.7857
+Inference latency (1 row)         | 0.555 ms (p95 0.605 ms)
+Inference throughput (1000 rows)  | 5.03 ms -> 198,951 rows/s
+------------------------------------------------------------
+Saved results to /home/ubuntu/ml-benchmark/benchmark_result.json

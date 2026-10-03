@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "source": "/home/ubuntu/ml-benchmark/creditcard.csv",
+    "rows": 284807,
+    "features": 30,
+    "train_rows": 199364,
+    "val_rows": 28481,
+    "test_rows": 56962
+  },
+  "environment": {
+    "hostname": "ip-10-0-10-125",
+    "python": "3.10.12",
+    "lightgbm": "4.7.0",
+    "cpu_count": 2
+  },
+  "load_data_time_s": 0.948,
+  "training_time_s": 5.0486,
+  "best_iteration": 243,
+  "auc_roc": 0.975642,
+  "accuracy": 0.999544,
+  "f1_score": 0.855556,
+  "precision": 0.939024,
+  "recall": 0.785714,
+  "inference_latency_1row_ms": 0.5549,
+  "inference_latency_1row_p95_ms": 0.605,
+  "inference_1000rows_time_ms": 5.0264,
+  "inference_throughput_rows_per_s": 198950.7
+}
